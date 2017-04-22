@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<title>CSI</title>
+	
+	<center>
+		<link rel="icon" href="csi-logo.png" type="png">
+		<img src="DBIT_logo1.png" alt="DBIT LOGO" style="width:200px;height:200px;">
+		<font size="14" color="blue"><strong>Don Bosco Institute of Technology-CSI</strong>
+		</font>
+		<img src="csi-logo.png" alt="csi logo" style="width:200px;height:200px;">
+	</center>
+	<hr>
+<style>
+	ul#m01 {
+    	list-style-type: none;
+    	margin:0;
+    	padding:0;
+    	overflow: hidden;
+    	background-color: blue;x
+	}
+
+	li#m01 {
+    	float: left;
+	}
+
+	li#m01 a {
+    	display: block ;
+    	color: white;
+    	text-align: center;
+    	padding: 25px;
+    	text-decoration: none;
+	}
+
+	li#m01 a:hover {
+    	background-color: #111111;
+	}
+</style>
+
+	<body bgcolor="#ecf0f1">
+		<ul id="m01">
+  			<li id="m01"><a href="1.html">Home</a></li>
+  			<li id="m01"><a href="#news">News</a></li>
+  			<li id="m01"><a href="#contact">Contact</a></li>
+  			<li id="m01"><a href="3.html">About</a></li>
+  			<li id="m01"><a href="2.html">Speaker</a></li>
+		</ul>
+	<hr>
+	<center>
+	<table>
+	<tr>
+		<td><h3>Registration for</h3></td>
+		<td>:</td>
+		<td><input type="text" name="course" placeholder="Workshop/demonstration" value="WORDPRESS"></td>
+	</tr>
+	</table>
+	</center>
+	<hr>
+	
+<form>
+<fieldset>
+	<legend><h1>Personal Information:</h1></legend>
+<center>
+<table>
+	<tr>
+		<td>DATE</td>
+		<td>:</td>
+		<td><input type="text" name="date" placeholder="dd/mm/yyyy" value="02/02/2017"></td>
+	</tr>
+	
+	<br>
+	<br>
+	
+	<tr>
+	<td>TIME</td>
+	<td>:</td>
+	<td><input type="text" name="time" placeholder="hrs:min:sec" value="12:00:00"></td>
+	
+	</center>
+	
+	<center>
+	
+	<tr>
+		<td>SPEAKER</td>
+		<td>:</td>
+		<td><input type="text" name="name" placeholder="Name" value="Aditya Bhagwat"></td>
+	</tr>
+	
+	<tr>
+		<td>HOURS</td>
+		<td>:</td>
+		<td><input type="text" name="hours" placeholder="Hours" value="2"></td>
+	</center>
+	
+	<center>	
+	
+	<tr>
+		<td>GENDER</td>
+		<td>:</td>
+  		<td><input type="radio" name="gender" value="m" checked> Male
+  			<input type="radio" name="gender" value="f" > Female<br>
+  		</td>
+  	</tr>
+  	</center>
+  	
+  	<center>
+	<tr>
+		<td>DEPARTMENT</td>
+		<td>:</td>
+  		<td><select name="dept">
+  			<option value="it" >Information Technology</option>
+  			<option value="comp">Computer Engineering</option>
+  			<option value="extc">Electronic and Telecommunication</option>
+  			<option value="mech">Mechanical Engineering</option>
+		</select></td>
+	</tr>
+	</center>
+
+	<tr>
+  		<td>CLASS</td>
+  		<td>:</td>
+  		<td><select name="Class">
+  			<option value="fe" >FE </option>
+  			<option value="se" selected>SE</option>
+  			<option value="te">TE</option>
+  			<option value="be">BE</option>
+ 			</optgroup>
+ 		</select>
+ 		</td>
+ 	</tr>
+ 	
+ 	<tr>
+ 		<td>CONTACT NUMBER</td>
+ 		<td>:</td>
+ 		<td><input type="text" name="phone number" placeholder="Phone Number" value="9820271097"></td>
+ 	</tr>
+ 	
+ 	<tr>
+ 		<td>EMAIL</td>
+ 		<td>:</td>
+ 		<td><input type="text" name="email" placeholder="Email" value="bhagwataditya226@gmail.com"></td>
+ 	</tr>
+</table>
+</center>
+</fieldset>
+
+<fieldset>
+	<legend><h1>Other details:</h1></legend>
+<center>
+<table>
+ 	<tr>
+ 		<td>ABOUT YOURSELF</td>
+ 		<td>:</td>
+ 		<td><textarea name="message" rows="10" cols="30">
+			</textarea></td>
+	</tr>
+	<tr>
+		<td>TECHNICAL SKILLS</td>
+		<td>:</td>
+  		<td><input type="checkbox" name="member" value="CSI"> CSI<br>
+  			<input type="checkbox" name="member" value="IEEE">IEEE<br>
+  			<input type="checkbox" name="member" value="ACM">ACM</td>
+  	</tr>
+ 	
+ 	<tr>
+ 		<td></td>
+ 		<td></td>
+ 		<td><input type="submit" onclick="validateinfo()" value="Submit"></td>
+ 	</tr>
+</table>
+</center>
+</fieldset>
+
+
+<fieldset>
+	<legend><h1>Confirmation:</h1></legend>
+<center>
+<table>
+	<tr>
+		<td>ARE YOU AN EXISTING CSI MEMBER?</td>
+		<td></td>
+		<td><input type="radio" name="decision" value="y" checked>Yes
+  			<input type="radio" name="decision" value="n" >No</td>
+  	</tr>
+  	
+  	<tr>
+  		<td>AMOUNT TO BE PAID:</td> 
+  		<td></td>
+  		<td><input type="text" placeholder="Amount to be Paid" value="Rs.100"></td>
+  	</tr>
+</table>
+</center>
+</fieldset>
+</form>
+<hr>
+	<p align="left">Developed & Designed By:<a href="https://www.adityabhagwatblog.wordpress.com">Aditya Bhagwat</a><p>
+	<p align="right">For further details mail us at: csidbit@gmail.com</p>
+</body>
+</html>
+
